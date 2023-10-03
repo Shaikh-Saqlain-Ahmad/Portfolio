@@ -1,0 +1,10 @@
+.half-width-card{
+    width: 40%;
+}
+.app-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.font-Size{
+    font-size: 24px;
+}
