@@ -7,12 +7,18 @@ import AppCard from './mycomponents/app-dev-card';
 import { NavbarDemo } from './mycomponents/nav-bar';
 import "@/mycomponents/my-style.css"
 import WebCard from './mycomponents/web-dev';
+import TextImageDiv from './mycomponents/text-image';
 
 function App() {
   return <>
   <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <NavbarDemo></NavbarDemo>
       <MyHeading text='Services Provided'></MyHeading>
+      <br></br>
+      <br></br>
+      <TextImageDiv textContent="hello">
+      </TextImageDiv>
+      <br></br>
       <br></br>
       <div className='app-card-container'>
       <AppCard></AppCard>
