@@ -16,7 +16,7 @@ export function TextImageDiv({ textContent }:Prop)  {
     <div className="flex w-full">
       <div className="flex-1 p-4">
         <>
-        <MyHeading text="Hello I'm Saqlain Ahmad"></MyHeading>
+        <MyHeading text="Hello, I'm Saqlain Ahmad"></MyHeading>
         <br></br>
         <p className="scroll-m-20 text-xl font-semibold tracking-tight">{textContent}</p>
         <br></br>

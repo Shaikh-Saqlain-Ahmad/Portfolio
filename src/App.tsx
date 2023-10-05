@@ -26,6 +26,8 @@ function App() {
       <AppCard></AppCard>
       <WebCard></WebCard>
       </div>
+      <br></br>
+      <br></br>
       <Footer></Footer>
       
     </ThemeProvider></>
