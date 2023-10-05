@@ -8,6 +8,7 @@ import { NavbarDemo } from './mycomponents/nav-bar';
 import "@/mycomponents/my-style.css"
 import WebCard from './mycomponents/web-dev';
 import TextImageDiv from './mycomponents/text-image';
+import Footer from './components/ui/footer';
 
 function App() {
   return <>
@@ -25,6 +26,7 @@ function App() {
       <AppCard></AppCard>
       <WebCard></WebCard>
       </div>
+      <Footer></Footer>
       
     </ThemeProvider></>
 
