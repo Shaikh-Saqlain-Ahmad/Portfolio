@@ -1,6 +1,7 @@
 
 import profilePic from "@/assets/saqlain.png";
 import { ReactNode } from "react";
+import MyHeading from "@/components/ui/heading";
 
 interface Prop {
   textContent: string;
@@ -11,7 +12,12 @@ export function TextImageDiv({ textContent }:Prop)  {
   return (
     <div className="flex w-full">
       <div className="flex-1 p-4">
-        <p>{textContent}</p>
+        <>
+        <MyHeading text="Hello I'm Saqlain Ahmad"></MyHeading>
+        <br></br>
+        <p className="scroll-m-20 text-xl font-semibold tracking-tight">{textContent}</p>
+        
+        </>
       </div>
       <div className="flex-1">
         <img

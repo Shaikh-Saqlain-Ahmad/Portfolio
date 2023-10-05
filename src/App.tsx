@@ -13,11 +13,12 @@ function App() {
   return <>
   <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <NavbarDemo></NavbarDemo>
-      <MyHeading text='Services Provided'></MyHeading>
       <br></br>
       <br></br>
-      <TextImageDiv textContent="hello">
+      <TextImageDiv textContent="Software Engineer specializing in Web Development & App Development">
       </TextImageDiv>
+      <br></br>
+      <MyHeading text='Services Provided'></MyHeading>
       <br></br>
       <br></br>
       <div className='app-card-container'>
