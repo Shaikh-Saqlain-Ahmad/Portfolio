@@ -9,6 +9,7 @@ import "@/mycomponents/my-style.css"
 import WebCard from './mycomponents/web-dev';
 import TextImageDiv from './mycomponents/text-image';
 import Footer from './components/ui/footer';
+import PythonCard from './mycomponents/python-card';
 
 function App() {
   return <>
@@ -28,6 +29,9 @@ function App() {
       </div>
       <br></br>
       <br></br>
+      <MyHeading text='My Projects'></MyHeading>
+      <br></br>
+      <PythonCard></PythonCard>
       <Footer></Footer>
       
     </ThemeProvider></>
