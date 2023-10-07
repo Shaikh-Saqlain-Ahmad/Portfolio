@@ -8,3 +8,8 @@
 .font-Size{
     font-size: 24px;
 }
+.project-card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px; 
+}

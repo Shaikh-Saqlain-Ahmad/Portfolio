@@ -10,6 +10,7 @@ import WebCard from './mycomponents/web-dev';
 import TextImageDiv from './mycomponents/text-image';
 import Footer from './components/ui/footer';
 import PythonCard from './mycomponents/python-card';
+import AgencySoulCard from './mycomponents/agency-soul-card';
 
 function App() {
   return <>
@@ -31,7 +32,11 @@ function App() {
       <br></br>
       <MyHeading text='My Projects'></MyHeading>
       <br></br>
+      <div className='project-card-container'>
       <PythonCard></PythonCard>
+      <AgencySoulCard></AgencySoulCard>
+      </div>
+      
       <Footer></Footer>
       
     </ThemeProvider></>
