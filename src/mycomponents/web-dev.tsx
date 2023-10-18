@@ -11,22 +11,22 @@ import {
   
   const notifications = [
     {
-      title: "Typescript",
+      title: ">> Typescript",
     },
     {
-      title: "React",
+      title: ">> React",
     },
     {
-      title: "Javascript",
+      title: ">> Javascript",
     },
     {
-      title: "Tailwind CSS",
+      title: ">> Tailwind CSS",
     },
     {
-        title:"HTML",
+        title:">> HTML",
     },
     {
-        title:"WordPress"
+        title:">> WordPress"
     }
   ];
   

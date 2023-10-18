@@ -11,16 +11,16 @@ import logo from "@/assets/flutter-logo.png";
 
 const notifications = [
   {
-    title: "Flutter",
+    title: ">> Flutter",
   },
   {
-    title: "Dart",
+    title: ">> Dart",
   },
   {
-    title: "Firebase",
+    title: ">> Firebase",
   },
   {
-    title: "State Management(Provider/Bloc)",
+    title: ">>State Management(Provider/Bloc/GetX)",
   },
 ];
 
@@ -40,13 +40,13 @@ function AppCard() {
   <img
     src={logo}
     alt="Small Image"
-    className="mx-2"
+    className="mx-2 "
     style={{ maxWidth: "50px", display: "block", margin: "0 auto" }}
   />
 </div>
 
               {notifications.map((notification, index) => (
-                <div key={index} className="flex items-center">
+                <div key={index} className="flex items-center list-disc">
                   
                   <p className="text-sm font-medium leading-none ">{notification.title}</p>
                   <br></br>
